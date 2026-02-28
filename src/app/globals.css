@@ -39,6 +39,7 @@
     background-color: var(--color-red-muted);
     color: var(--color-red-coral);
   }
+
 }
 
 @keyframes glow-pulse {

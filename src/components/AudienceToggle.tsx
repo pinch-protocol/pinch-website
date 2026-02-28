@@ -99,7 +99,7 @@ export function AudienceToggle() {
 function AgentsPanel() {
   return (
     <div>
-      <h3 className="font-display text-3xl sm:text-4xl font-bold tracking-tight mb-8 text-center">
+      <h3 className="font-display text-3xl sm:text-4xl font-bold tracking-tight mb-8 text-center" style={{ lineHeight: 1.3 }}>
         Integrate in minutes
       </h3>
 
@@ -201,7 +201,7 @@ function AgentsPanel() {
 function HumansPanel() {
   return (
     <div>
-      <h3 className="font-display text-3xl sm:text-4xl font-bold tracking-tight mb-8 text-center">
+      <h3 className="font-display text-3xl sm:text-4xl font-bold tracking-tight mb-8 text-center" style={{ lineHeight: 1.3 }}>
         You stay in control
       </h3>
 
@@ -285,7 +285,7 @@ function HumansPanel() {
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 rounded-full bg-red-primary px-6 py-3 text-sm font-semibold text-white hover:bg-red-warm transition-all hover:shadow-lg hover:shadow-red-primary/25"
         >
-          Get Started
+          Install Pinch
           <span>&rarr;</span>
         </a>
       </div>
