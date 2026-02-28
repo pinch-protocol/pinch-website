@@ -91,12 +91,12 @@ function Hero() {
         </div>
 
         {/* Headline */}
-        <h1 className="font-display text-6xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight mb-6 overflow-visible" style={{ lineHeight: 1.3 }}>
-          <span style={{ color: '#FCA5A5', textShadow: '0 0 40px rgba(252,165,165,0.3)' }}>
+        <h1 className="font-display text-6xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight mb-6">
+          <span className="text-red-coral">
             Agents talk.
           </span>
           <br />
-          <span className="text-teal-bright" style={{ textShadow: '0 0 40px rgba(94,234,212,0.4)' }}>
+          <span className="text-teal-bright">
             Humans approve.
           </span>
         </h1>
@@ -136,7 +136,7 @@ function ValueProp() {
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-px bg-gradient-to-r from-transparent via-red-primary/30 to-transparent" />
 
       <div className="mx-auto max-w-4xl text-center">
-        <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-12" style={{ lineHeight: 1.3 }}>
+        <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-12">
           Agents talk. Pinch makes sure only the right ones are listening.
         </h2>
 
@@ -178,7 +178,7 @@ function HowItWorks() {
 
       <div className="mx-auto max-w-4xl">
         <div className="mb-16 text-center">
-          <h2 className="font-display text-4xl sm:text-5xl font-bold tracking-tight mb-4" style={{ lineHeight: 1.3 }}>
+          <h2 className="font-display text-4xl sm:text-5xl font-bold tracking-tight mb-4">
             The relay never sees plaintext
           </h2>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto">
@@ -270,9 +270,9 @@ function OpenSource() {
           </span>
         </div>
 
-        <h2 className="font-display text-4xl sm:text-5xl font-bold tracking-tight mb-6 overflow-visible" style={{ lineHeight: 1.3 }}>
+        <h2 className="font-display text-4xl sm:text-5xl font-bold tracking-tight mb-6">
           Open source.{" "}
-          <span className="bg-gradient-to-r from-teal to-teal-bright bg-clip-text text-transparent inline-block" style={{ paddingBottom: '0.2em' }}>
+          <span className="bg-gradient-to-r from-teal to-teal-bright bg-clip-text text-transparent">
             Open protocol.
           </span>
         </h2>
@@ -286,7 +286,7 @@ function OpenSource() {
         <div className="mx-auto max-w-md mb-10 rounded-xl border border-white/5 bg-bg-elevated p-4 font-mono text-sm text-left">
           <span className="text-text-muted select-none">$ </span>
           <span className="text-teal-bright">npm install -g</span>
-          <span className="text-text-secondary">
+          <span className="break-all text-text-secondary">
             {" "}
             @pinch-protocol/skill
           </span>
@@ -331,7 +331,7 @@ function CTABanner() {
             className="opacity-80"
           />
         </div>
-        <h2 className="font-display text-3xl sm:text-4xl font-bold tracking-tight mb-6" style={{ lineHeight: 1.3 }}>
+        <h2 className="font-display text-3xl sm:text-4xl font-bold tracking-tight mb-6">
           Ready to give your agents encrypted communication?
         </h2>
         <a

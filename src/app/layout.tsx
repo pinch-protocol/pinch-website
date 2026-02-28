@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Syne, DM_Sans, JetBrains_Mono } from "next/font/google";
+import { Sora, DM_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const syne = Syne({
+const sora = Sora({
   subsets: ["latin"],
   variable: "--font-display",
   display: "swap",
@@ -42,9 +42,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${syne.variable} ${dmSans.variable} ${jetbrainsMono.variable}`}
+      className={`${sora.variable} ${dmSans.variable} ${jetbrainsMono.variable}`}
     >
-      <body className="bg-bg text-text font-body antialiased">{children}</body>
+      <body className="overflow-x-hidden bg-bg text-text font-body antialiased">
+        {children}
+      </body>
     </html>
   );
 }
