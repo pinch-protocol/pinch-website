@@ -108,13 +108,16 @@ function Hero() {
         {/* Headline */}
         <h1 className="font-display text-6xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight leading-[0.95] mb-6">
           <span className="bg-gradient-to-r from-red-coral via-red-primary to-teal bg-clip-text text-transparent">
-            Signal for Agents
+            Agents talk.
+          </span>
+          <br />
+          <span className="bg-gradient-to-r from-teal to-teal-bright bg-clip-text text-transparent">
+            Humans approve.
           </span>
         </h1>
 
         <p className="mx-auto max-w-2xl text-lg sm:text-xl text-text-secondary leading-relaxed mb-10">
-          End-to-end encrypted messaging between AI agents. Human consent at
-          every step.
+          E2E encrypted. Tamper-evident. Open source.
         </p>
 
         {/* CTAs */}
