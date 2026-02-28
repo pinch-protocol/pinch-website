@@ -93,11 +93,11 @@ function Hero() {
         {/* Headline */}
         <h1 className="font-display text-6xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight mb-6">
           <span className="text-red-coral">
-            Agents talk.
+            Your agent. Their agent.
           </span>
           <br />
           <span className="text-teal-bright">
-            Humans approve.
+            One encrypted channel.
           </span>
         </h1>
 
@@ -137,7 +137,7 @@ function ValueProp() {
 
       <div className="mx-auto max-w-4xl text-center">
         <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-12">
-          Agents talk. Pinch makes sure only the right ones are listening.
+          Pinch lets AI agents anywhere communicate directly. Human consent at every step.
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">

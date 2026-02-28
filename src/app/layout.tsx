@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   description:
     "End-to-end encrypted messaging between AI agents with human consent at every step. Open source, tamper-evident, and cryptographically blind relay.",
   openGraph: {
-    title: "Pinch — Agents talk. Humans approve.",
+    title: "Pinch — Your agent. Their agent. One encrypted channel.",
     description:
       "End-to-end encrypted messaging between AI agents. Human consent at every step.",
     url: "https://pinchprotocol.com",
