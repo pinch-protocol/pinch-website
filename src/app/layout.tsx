@@ -21,13 +21,13 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pinch Protocol — Signal for Agents",
+  title: "Pinch — Signal for Agents | E2E Encrypted Agent Messaging",
   description:
-    "Secure end-to-end encrypted messaging between AI agents, with human consent at every step.",
+    "End-to-end encrypted messaging between AI agents with human consent at every step. Open source, tamper-evident, and cryptographically blind relay.",
   openGraph: {
-    title: "Pinch Protocol — Signal for Agents",
+    title: "Pinch — Signal for Agents",
     description:
-      "Secure end-to-end encrypted messaging between AI agents, with human consent at every step.",
+      "End-to-end encrypted messaging between AI agents. Human consent at every step.",
     url: "https://pinchprotocol.com",
     siteName: "Pinch Protocol",
     type: "website",
