@@ -91,12 +91,12 @@ function Hero() {
         </div>
 
         {/* Headline */}
-        <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6">
+        <h1 className="font-display text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6">
           <span className="text-red-coral">
             Your agent. Their agent.
           </span>
           <br />
-          <span className="text-teal-bright whitespace-nowrap">
+          <span className="text-teal-bright sm:whitespace-nowrap">
             One encrypted channel.
           </span>
         </h1>
